@@ -6,7 +6,7 @@ import { Pencil, Save, Trash, X } from "lucide-react";
 type Movie = {
   id: number | string;
   name: string;
-  date: string; // lưu string thay vì Date để JSON parse dễ hơn
+  date: string;
 };
 
 export default function HN_KS24CNTT4_DoanManhDuy_008() {
